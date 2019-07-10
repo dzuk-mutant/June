@@ -6,7 +6,7 @@ June is a high-resolution bitmap font with some playful curves and distinctive l
 
 I made it to use in my own game concepts for the [Panic Playdate](https://play.date), as I didn't really find fonts that suited the size needs of the display or the kind of aesthetic I wanted. 
 
-It can also be easily applicable to other situations involving high-density, low colour depth displays.
+It's also probably applicable to other situations involving high-density, low colour depth displays.
 
 It's currently in a prototype stage and is just a sprite sheet with some alignment guides right now. I want to get it encoded into a common format or two very soon.
 
