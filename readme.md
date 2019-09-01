@@ -30,13 +30,12 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 	- (excluding the depreciated U+0149 character)
 - Hiragana (full)
 - Katakana (full)
-
+- Fullwidth and Halfwidth Letterforms (some)
+	- All Fullwidth ASCII characters + Japanese punctuation
 
 
 ##### In progress character areas (june_wip.ase)
 - Japanese Punctuation
-- Full-Width Latin (most)
-- Full-Width Latin Punctuation (some)
 - Playdate input icons in two sizes (one to fit Latin characters better, the other to fit CJK characters, I'll probably revise this in the future)
 
 ---
