@@ -15,6 +15,7 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 
 ### Aspects
 
+- Two versions - regular and condensed.
 - Full European Latin support, Japanese Kana support.
 - On a Playdate screen, it's estimated to be about 14px/~1.8mm baseline to ascender height for Latin, 14px/~1.8mm square height/width for CJK characters. (Essentially the same size as body text on iPhones)
 - Borrows visual cues from  monospaced fonts to more clearly distinguish certain similar Latin characters (ie. I/i/1/l).
@@ -23,6 +24,8 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 ----
 
 ### Character areas supported:
+
+#### June
 
 - Basic Latin / ASCII (full)
 - Latin-1 Supplement (full)
@@ -34,14 +37,25 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 	- All Fullwidth ASCII characters + Japanese punctuation
 - CJK Symbols and Punctuation (some)
 
-##### In progress character areas (june_wip.ase)
+
+#### June Condensed (WIP)
+
+- Basic Latin / ASCII (full)
+- Latin-1 Supplement (full)
+- Latin Extended-A (not yet)
+
+If you wanted, you could mix and match June Condensed Latin with June Regular CJK characters.
+
+
+#### Other WIP (src/regular/june_wip.ase)
 - Playdate input icons in two sizes (one to fit Latin characters better, the other to fit CJK characters, I'll probably revise this in the future)
 
 ---
 
 ### Todo:
 
-- Finish Japanese punctuation and Full-Width Latin
+- Finish June Condensed
+- Improve June Regular
 - Get the font encoded into a format or two
 - Declare kerning pairs
 - Add € and some other useful signs not covered by the blocks I've done so far
