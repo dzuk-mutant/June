@@ -32,10 +32,9 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 - Katakana (full)
 - Fullwidth and Halfwidth Letterforms (some)
 	- All Fullwidth ASCII characters + Japanese punctuation
-
+- CJK Symbols and Punctuation (some)
 
 ##### In progress character areas (june_wip.ase)
-- Japanese Punctuation
 - Playdate input icons in two sizes (one to fit Latin characters better, the other to fit CJK characters, I'll probably revise this in the future)
 
 ---
