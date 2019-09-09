@@ -1,8 +1,12 @@
-![](preview.png)
+![](preview_regular.png)
+
+![](preview_condensed.png)
 
 ## June
 
-June is a high-resolution bitmap font with some playful curves and distinctive letterforms, inspired by portable game fonts of the 00's.
+June is a multilingual, high-resolution bitmap font with some playful curves and distinctive letterforms, inspired by portable game fonts of the 00's.
+
+It's intended to be highly legible and readable - ideal for contexts like dialogue.
 
 I made it to use in my own game concepts for the [Panic Playdate](https://play.date), as I didn't really find fonts that suited the size needs of the display or the kind of aesthetic I wanted. 
 
@@ -13,24 +17,24 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 ---
 
 
-### Aspects
+### Aspects, Features + Limitations
 
 - Two versions - regular and condensed.
-- Full European Latin support, Japanese Kana support.
 - On a Playdate screen, it's estimated to be about 14px/~1.8mm baseline to ascender height for Latin, 14px/~1.8mm square height/width for CJK characters. (Essentially the same size as body text on iPhones)
 - Borrows visual cues from  monospaced fonts to more clearly distinguish certain similar Latin characters (ie. I/i/1/l).
-- Currently, Japanese characters have only been designed/framed to be written in horizontal writing orientation so they can be typed alongside the rest of June's characters in a seamless way, but this might change in the future.
+- Currently, Japanese characters have only been designed/framed to be written in horizontal writing orientation so they can be typed alongside the rest of June's characters in a seamless way.
 
 ----
 
-### Character areas supported:
+### Supported Unicode character areas
 
-#### June
+#### Regular
 
 - Basic Latin / ASCII (full)
 - Latin-1 Supplement (full)
 - Latin Extended-A (full)
 	- (excluding the depreciated U+0149 character)
+- Cyrillic (Russian and some others)
 - Hiragana (full)
 - Katakana (full)
 - Fullwidth and Halfwidth Letterforms (some)
@@ -38,7 +42,7 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 - CJK Symbols and Punctuation (some)
 
 
-#### June Condensed (WIP)
+#### Condensed
 
 - Basic Latin / ASCII (full)
 - Latin-1 Supplement (full)
@@ -48,18 +52,16 @@ If you wanted, you could mix and match June Condensed Latin with June Regular CJ
 
 
 #### Other WIP (src/regular/june_wip.ase)
-- Playdate input icons in two sizes (one to fit Latin characters better, the other to fit CJK characters, I'll probably revise this in the future)
+- Playdate input icons
 
 ---
 
 ### Todo:
 
-- Finish June Condensed
-- Improve June Regular
 - Get the font encoded into a format or two
 - Declare kerning pairs
 - Add € and some other useful signs not covered by the blocks I've done so far
-- Give all the characters a thorough testing
+- Keep testing
 - Do some other symbols (smileys, hearts, etc.)
 - Consider supporting a segment of the most used and least complex Kanji
 
@@ -73,5 +75,5 @@ This font is licensed under the [zlib license](license.txt) (it's basically like
 
 ### Special thanks
 
-- kiilas for checking over the Central European accented characters for me.
+- kiilas for checking over the Central European accented and Cyrillic characters for me.
 - Someone on Mastodon for figuring out [what display the Playdate uses](https://www.sharpsma.com/products?sharpCategory=Memory%2520LCD&p_p_parallel=0&sharpProductRecordId=1504552), which helped me definitively figure out how big the font would be on a real Playdate.
