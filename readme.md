@@ -46,7 +46,7 @@ It's currently in a prototype stage, I'd like to get it encoded in a format or t
 
 - Basic Latin / ASCII (full)
 - Latin-1 Supplement (full)
-- Latin Extended-A (not yet)
+- Latin Extended-A (full)
 
 If you wanted, you could mix and match June Condensed Latin with June Regular CJK characters.
 
