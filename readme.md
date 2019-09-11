@@ -1,6 +1,4 @@
-![](preview_regular.png)
-
-![](preview_condensed.png)
+![](preview.png)
 
 ## June
 
